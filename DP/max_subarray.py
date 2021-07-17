@@ -5,4 +5,4 @@ class Solution:
         for num in nums[1:]:
             current = max(num+current,num)
             max1 = max(current,max1)
-        return max1
+        return max
